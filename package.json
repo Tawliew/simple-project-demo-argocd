@@ -1,0 +1,26 @@
+{
+  "name": "simple-project-demo-argocd",
+  "version": "1.0.0",
+  "description": "simple app to show a demo of argocd",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":  "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tawliew/simple-project-demo-argocd.git"
+  },
+  "keywords": [
+    "argocd"
+  ],
+  "author": "Luiz Fernando Dantas Patheis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tawliew/simple-project-demo-argocd/issues"
+  },
+  "homepage": "https://github.com/Tawliew/simple-project-demo-argocd#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
