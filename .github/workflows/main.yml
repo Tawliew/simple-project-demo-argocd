@@ -43,6 +43,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: techhour-argocd:$GITHUB_RUN_NUMBER
+          tags: tawliew/techhour-argocd:$GITHUB_RUN_NUMBER
       
      
