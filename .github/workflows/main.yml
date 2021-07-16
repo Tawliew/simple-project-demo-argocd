@@ -27,8 +27,11 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo ${{ env.GITHUB_RUN_NUMBER }}
-      
+        run: |
+        echo $env.GITHUB_RUN_NUMBER
+        echo env.GITHUB_RUN_NUMBER
+        echo $GITHUB_RUN_NUMBER
+        echo ${{ $env.GITHUB_RUN_NUMBER }}
       - name: printenv
         run: printenv
         
